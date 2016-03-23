@@ -107,7 +107,9 @@ media2=(125*2+175+225*4+275*8+325*14+375*12+425*21+
 media2
 #*****************************************************************#
 #Distribución de pesos para prolemas del uso de las medidas de tendencia central 
+#Ya no ejecutar este código para que no se altere
 pesos=rnorm(50,102,3)
+################################
 pesos
 h3=hist(pesos, xlab = "Valores",ylab = "Frecuencia",main= "Histograma de tercera distribuci?n.", col = "Gray",border = "Black")
 print(table.freq(h3),row.names=FALSE)
