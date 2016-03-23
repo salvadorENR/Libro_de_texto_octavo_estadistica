@@ -111,6 +111,16 @@ media2
 pesos=rnorm(50,102,3)
 ################################
 pesos
-h3=hist(pesos, xlab = "Valores",ylab = "Frecuencia",main= "Histograma de tercera distribuci?n.", col = "Gray",border = "Black")
+h3=hist(pesos, xlab = "Peso",ylab = "N° de niños",main= "Distribución del peso de los niños.", col = "Gray",border = "Black")
 print(table.freq(h3),row.names=FALSE)
+mean(pesos)
+median(pesos)
+#Sacando las medidas de tendencia central mediante las fórmulas
+#para datos agrupados
+###Moda###
+102+4/(4+4)*2
+###Mediana###
+102+(25-22)/14*2
+###Media###
+(95*3+97*2+99*7+101*10+103*14+105*10+107*3+109*1)/50
 
